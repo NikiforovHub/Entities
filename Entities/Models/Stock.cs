@@ -7,6 +7,7 @@ namespace Entities.Models
 {
     public class Stock
     {
+        // [DatabaseGenerated(DatabaseGeneratedOption.None)] зачем нужна эта строка?
         public int StockID { get; set; }
         public string StockName { get; set; }
         public string StockDescription { get; set; }
